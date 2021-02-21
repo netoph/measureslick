@@ -8,10 +8,10 @@ import pandas as pd
 from astropy.io import fits
 from matplotlib import pyplot as plt
 
-#uses pyphot library
+#uses pyphot library https://mfouesneau.github.io/docs/pyphot/
 #Measures lick indexes with errors in dependence of radial velocity-- radial velocity must be measured first.
 #you may need more than 2 radial mesurements, or more than 2 apertures in fits file it doesn't work with a single apperture.
-#computes errors from cardiel et al 1998
+#computes errors from cardiel et al 1998 https://ui.adsabs.harvard.edu/abs/1998A%26AS..127..597C/abstract
 #the case of logaritmic wavelenght is on, fitsfile must be in logaritmic scale and containing more than 2 apertures.
 #Don't ask me how but it works.
 
